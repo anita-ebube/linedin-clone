@@ -1,20 +1,18 @@
-import Premium from "../assets/premium.png";
-import Dots from "../assets/three-dots.svg";
-import LinkedIn from "../assets/linkedin2.png";
-import bookmark from "../assets/bookmark.svg";
-import BBotton from "./buttons/BButton.jsx";
-import Photo from "../assets/Picture.svg";
-import calendar from "../assets/calendar.svg";
-import news from "../assets/news.svg";
-import Carret from "../assets/carret.svg";
-import { UserAuth } from "../context/AuthContext.jsx";
-import feed from "../assets/feed.png"
-import Post from "../assets/post"
+import Premium from "../../assets/premium.png";
+import Dots from "../../assets/three-dots.svg";
+import bookmark from "../../assets/bookmark.svg";
+import Photo from "../../assets/Picture.svg";
+import calendar from "../../assets/calendar.svg";
+import news from "../../assets/news.svg";
+import Carret from "../../assets/carret.svg";
+import { UserAuth } from "../../context/AuthContext.jsx";
+import feed from "../../assets/feed.png"
+import Image from "../../assets/icons/image.svg"
+import Contribute from "../../assets/icons/contribute.svg"
+// import Post from "../assets/post"
 
 const Body = () => {
   const { user } = UserAuth();
-
-
 
   const data = [
     {
@@ -166,7 +164,7 @@ function PostForm({ user }) {
         )}
         <input
           type="text"
-          placeholder="Start a Post"
+          placeholder="Start a post, Try writing with AI"
           //value={}
           //onChange={}
           className="border border-gray-400 rounded-full w-full h-12 p-3 placeholder:font-semibold placeholder:text-textcolor"
@@ -174,11 +172,11 @@ function PostForm({ user }) {
       </div>
       <div className="pb-0 pt-4 mt-2 px-6 flex justify-between ">
         <div className="flex gap-2">
-          <img src={Photo} alt="" className="w-5 h-5 text-blue" />
+          <img src={Image} alt=""  />
           <span className="text-base font-semibold">Media</span>
         </div>
         <div className="flex gap-2">
-          <img src={calendar} alt="" className="w-5 h-5 text-blue" />
+          <img src={Contribute} alt="" className="w-5 h-5 text-blue" />
           <span className="text-base font-semibold">Event</span>
         </div>
         <div className="flex gap-2">
@@ -221,3 +219,4 @@ function Post({ user, post }) {
     </div>
   );
 }
+

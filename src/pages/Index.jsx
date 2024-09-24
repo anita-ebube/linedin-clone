@@ -1,11 +1,11 @@
-// import Body from "../components/Body"
-import MainNavBar from "../components/MainNavBar";
+import Body from "../components/Main/page.jsx";
+import MainNavBar from "../components/HomeNav/page.jsx";
 
 const Index = () => {
   return (
     <div className="bg-lightgrey h-full pb-8">
       <MainNavBar />
-      {/* <Body /> */}
+      <Body />
     </div>
   );
 };

@@ -1,5 +1,5 @@
-import Hero from "../components/Hero";
-import NavBar from "../components/NavBar";
+import Hero from "../components/Hero/Hero";
+import NavBar from "../components/NavBar/NavBar";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
 import Index  from "../pages/Index"
@@ -7,6 +7,7 @@ import Index  from "../pages/Index"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthContextProvider } from "../context/AuthContext";
 import Protected from "../components/Protected";
+import Body from "../components/Main/page";
 
 const LandingPage = () => {
   return (
@@ -35,7 +36,6 @@ const LandingPage = () => {
               element={
                 <Protected>
                   <Index />
-                  {/* <Index /> */}
                 </Protected>
               }
             />

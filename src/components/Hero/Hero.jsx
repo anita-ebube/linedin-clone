@@ -1,8 +1,6 @@
-import HeroImg from "../assets/heroimg.svg";
-import Google from "../assets/Google.png";
-import HeroBtn from "./buttons/HeroBtn";
-//import { Link } from "react-router-dom";
-import { UserAuth } from "../context/AuthContext";
+import HeroImg from "../../assets/heroimg.svg";
+import Google from "../../assets/Google.png";
+import { UserAuth } from "../../context/AuthContext";
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from "react";
 

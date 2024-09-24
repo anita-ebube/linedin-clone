@@ -1,10 +1,9 @@
-// import linkedin from "../assets/linkedin2.png";
-import linkedin from "../assets/logo-body.png"
-import Homes from "../assets/icons/home.svg"
-import People from "../assets/icons/people.svg"
-import Job from "../assets/icons/jobs.svg"
-import Messages from "../assets/icons/message.svg"
-import Notification from "../assets/icons/notification.svg"
+import linkedin from "../../assets/logo-body.png"
+import Homes from "../../assets/icons/home.svg"
+import People from "../../assets/icons/people.svg"
+import Job from "../../assets/icons/jobs.svg"
+import Messages from "../../assets/icons/message.svg"
+import Notification from "../../assets/icons/notification.svg"
 
 const MainNavBar = () => {
  

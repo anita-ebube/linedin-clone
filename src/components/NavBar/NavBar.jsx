@@ -1,11 +1,10 @@
-import logo from "../assets/logo.webp";
-import BButton from "./buttons/BButton";
-import postcard from "../assets/postcard.svg";
-import playbtn from "../assets/play-btn.svg";
-import puzzle from "../assets/puzzle.svg";
-import laptop from "../assets/laptop.svg";
-import briefcase from "../assets/briefcase.svg";
-import people from "../assets/people.png";
+import logo from "../../assets/logo.webp";
+import postcard from "../../assets/postcard.svg";
+import playbtn from "../../assets/play-btn.svg";
+import puzzle from "../../assets/puzzle.svg";
+import laptop from "../../assets/laptop.svg";
+import briefcase from "../../assets/briefcase.svg";
+import people from "../../assets/people.png";
 
 const NavBar = () => {
   return (
